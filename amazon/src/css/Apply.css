@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#Apply_home_main_div {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2% 0%;
+}
+
+#apply_categries_div {
+    width: 100%;
+    height: auto;
+    padding: 4% 0%;
+    margin-left: 6%;
+
+}
+
+#apply_image_div {
+    width: 100%;
+    height: auto;
+    padding: 0% 8%;
+    margin-top: 2%;
+    margin-left: -18%;
+
+}
+
+#apply_image_div img {
+    width: 100%;
+    height: auto;
+    padding: 0% 4%;
+    margin-top: -4%;
+}
+#Signup_btn {
+    width: auto;
+    height: auto;
+    padding: 8%;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+
+}
+
+#job-application-form p {
+    color: black;
+    padding: 2% 0%;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 16px;
+}
+
+#job-application-form {
+    max-width: auto;
+    margin: 0% 22%;
+    padding: 2% 3%;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+
+}
+
+#job-application-form h5 {
+    text-align: center;
+    font-size: 30px;
+    
+    padding: 2% 0%;
+    margin-bottom: 4%;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+label{
+    padding:2% 0%;
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+   
+
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 2%;
+    margin: 2% 0%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12x;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+button[type="submit"] {
+    width: auto;
+    background-color: rgb(15, 178, 178);
+    color: #fff;
+    padding: 4% 8%;
+    border: none;
+    cursor: pointer;
+    margin: 2% 0%;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin:0% 2%;
+}
+
+button[type="submit"]:hover {
+    width: auto;
+    background-color: white;
+    border: none;
+    border-left: 4px solid rgb(15, 178, 178);
+    border-right: 4px solid rgb(15, 178, 178);
+    color: black;
+}
+
+#Pay_bow_btn {
+    width: auto;
+    background-color: white;
+    color: black;
+    padding: 4% 8%;
+    border: none;
+    cursor: pointer;
+    margin: 2% 0%;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    border: none;
+    border-left: 4px solid rgb(15, 178, 178);
+    border-right: 4px solid rgb(15, 178, 178);
+
+}
+
+
+#reseriver_main_div {
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: auto;
+}
+
+#reseriver_main_div p {
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 2% 0%;
+    color: teal;
+}
+
+a{
+    
+    cursor: pointer;
+}

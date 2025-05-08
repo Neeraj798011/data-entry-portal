@@ -1,0 +1,883 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+#HOME_MAIN_DIV{
+    width:100%;
+    height:auto;
+    padding:1% 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+   
+}
+#home_categries{
+    width: 100%;
+    height:auto;
+    padding:6% 3%;
+    margin:4%;
+  
+}
+
+#home_categries h1{
+    color: chocolate;
+    font-size: 38px;
+    padding:2% 2%;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+
+}
+
+#home_categries p{
+    font-size: 18px;
+    color: black;
+    padding: 1% 2%;
+    font-family: "Hind", sans-serif;
+  font-weight:400;
+  font-style: normal;
+}
+
+#home_categries span{
+    color: chocolate;
+    font-weight:700;
+}
+
+#home_categries button{
+    width:30%;
+    background-color: chocolate;
+    border: navajowhite;
+    padding:2% 4%;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Hind", sans-serif;
+  font-weight:600;
+  font-style: normal;
+    margin:3% 2%;
+    transition: all 0.5s ease;
+}
+
+#home_categries button:hover{
+    background-color: white;
+    color: chocolate;
+    border: none;
+    border-left: 2px solid chocolate;
+    border-right: 2px solid chocolate;
+    border-radius: 4px;
+}
+
+#home_categries1{
+    width:100%;
+    height: auto;
+ 
+    padding: 2%;
+}
+
+#home_categries1 img{
+    width: 100%;
+    height: auto;
+    color: white;
+    padding:2% 4%;
+}
+
+
+#IMPORTANT_INFO_DIV{
+
+    width: 100%;
+    height: auto;
+    padding:1% 5.5%;
+   
+   
+   
+}
+
+
+
+#important_categries{
+    display: flex;
+justify-items: center;
+justify-content: center;
+    border: 1px solid chocolate;
+}
+
+
+#important_categries h1{
+    width:26%;
+ 
+    background-color: chocolate;
+    color: white;
+    padding:1%;
+    font-size:18px;
+    font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+}
+
+#important_categries a{
+    color:chocolate;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Hind", sans-serif;
+  font-weight:400;
+justify-items: center;
+  padding: 2% 0%;
+  font-style: normal;
+ 
+}
+
+.fa-facebook {
+  background-color: chocolate;
+color: white;
+}
+
+.fa-twitter {
+background-color: chocolate;
+color: white;
+}
+
+.fa-google {
+background-color: chocolate;
+color: white;
+}
+
+.fa-linkedin {
+background-color: chocolate;
+color: white;
+}
+
+.fa-youtube {
+background-color: chocolate;
+color: white;
+}
+
+.fa-instagram {
+background-color: chocolate;
+color: white;
+}
+
+.fa-pinterest {
+background-color: chocolate;
+color: white;
+}
+
+.fa-snapchat-ghost {
+background: #fffc00;
+color: white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa {
+padding: 12px;
+font-size:22px;
+width:40px;
+text-align: center;
+text-decoration: none;
+margin: 8px 2px;
+display: block;
+}
+
+#SOCIAL_MEADIA{
+width: auto;
+height:auto;
+padding: 2%;
+background-color:rgb(248, 248, 248);
+margin:1% 0%;
+
+position: fixed;
+margin-left: -1.8%;
+
+
+border-radius: 4px;
+transform: translateY(-425px);
+}
+#SOCIAL_MEADIA a{
+  display: block;
+}
+
+
+
+
+
+
+
+#HOME_MAIN_DIV{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding:1% 2%;
+  
+}
+
+#home_categries_div{
+    width: 100%;
+    height: auto;
+    padding:2% 3%;
+    margin:1% 2%;
+}
+
+
+#home_categries_div h1{
+color:rgb(15, 178, 178);
+    font-size: 38px;
+    padding: 2% 0%;
+    margin: 1% 0%;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+#home_categries_div p{
+    color: black;
+    font-size: 16px;
+    padding: 2% 0%;
+    margin:0%;
+    font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+ 
+}
+
+#homepage_apply_btn{
+    width:30%;
+    height: auto;
+    padding:2%;
+  
+    border: none;
+    color: black;
+    margin:2% 0%;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+  cursor: pointer;
+  border-left: 4px solid rgb(15, 178, 178);
+  border-right: 4px solid rgb(15, 178, 178);
+  transition: all 1s ease;
+}
+
+
+#homepage_apply_btn:hover{
+  background-color: rgb(243, 243, 243);
+  box-shadow: 2px 2px 4px solid grey;
+}
+
+#homepage_signup_btn{
+  width:30%;
+    height: auto;
+    padding:2%;
+    background-color: rgb(15, 178, 178);;
+
+  color: white;
+  border: none;
+  border-left: 4px solid rgb(15, 178, 178);
+  border-right: 4px solid rgb(15, 178, 178);
+  box-shadow: 2px 2px 4px solid grey;
+    margin:2% 1%;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+#homepage_signup_btn:hover{
+  background-color: rgb(243, 243, 243);
+  color: black;
+
+}
+
+#marque_div{
+  width: 100%;
+  height:auto;
+  padding:1% 2%;
+  background-color: rgb(15, 178, 178);;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+ 
+
+}
+
+#ABOUT_MAIN_TEXT_DIV{
+  width: 100%;
+  height: auto;
+  padding: 0% 4%;
+}
+
+#ABOUT_MAIN_TEXT_DIV p{
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+  padding: 0% 2%;
+
+}
+
+#ABOUT_MAIN_DIV{
+  width: 100%;
+  height: auto;
+  padding:0% 4%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+ 
+}
+
+#about_categries_image_div{
+  width: 100%;
+  height: auto;
+  padding: 2%;
+}
+#about_categries_image_div img{
+  width: 95%;
+  height: auto;
+  padding:2% 4%;
+
+}
+
+#about_categries_div{
+  width: 100%;
+  height: auto;
+  padding:8% 2%;
+  margin: 2% 0%;
+  
+}
+
+#about_categries_div h1{
+  font-size: 40px;
+  padding: 2% 0%;
+font-family: "Roboto Slab", serif;
+font-weight: 500;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+
+#about_categries_div p{
+  padding: 2% 0%;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+}
+#STEP_MAIN_DIV{
+  width: 100%;
+  height: auto;
+  padding: 4% 12%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+#step_categries_div{
+  width: 95%;
+  height: auto;
+  padding:4%;
+  margin:6% 4%;
+  text-align: center;
+ border: 1px solid rgb(15, 178, 178);
+  transition: all 1s ease;
+  scale:95%;
+}
+#step_categries_div:hover{
+  background-color: rgb(15, 178, 178);;
+  color: white;
+  transform: translateY(-4px);
+  box-shadow: 0px 2px 2px teal;
+  border: none;
+  scale: 100%;
+}
+
+
+
+#step_categries_div img{
+  width:140px;
+  height: auto;
+  border-radius: 90%;
+}
+
+
+#step_categries_div p{
+ 
+  padding: 2%;
+  margin: 2% 0%;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+}
+
+
+#step_categries_div h1{
+
+  font-size: 30px;
+  padding: 2% 0%;
+font-family: "Roboto Slab", serif;
+font-weight: 500;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+#DATA_COMPANY_all_options{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#DATA_COMPANY_all_options h1{
+  font-size: 50px;
+  padding: 2% 0%;
+  margin: 1% 0%;
+  color:rgb(15, 178, 178);
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+#DATA_COMPANY_IMAGE_MAIN_DIV{
+  width: 100%;
+  height: auto;
+  padding:1% 4%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+
+
+#amazon_div{
+  width:90%;
+  height: auto;
+  border: 1px solid gray;
+  padding:1% 2%;
+  margin:1% 0%;
+  background-color:white;
+  box-shadow: 0px 1px 1px teal;
+}
+
+#amazon_div  img{
+  width:80%;
+  height: auto;
+  padding:8%;
+  margin: 2%;
+  
+}
+
+
+
+#DATA_COMPANY_IMAGE_MAIN_DIV2{
+  width: 100%;
+  height: auto;
+  padding:1% 4%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+
+#amazon_div2{
+  width:90%;
+  height: auto;
+  border: 1px solid gray;
+  padding:2%;
+  margin:1% 0%;
+  background-color:white;
+  box-shadow: 0px 1px 1px teal;
+}
+
+
+#amazon_div2  img{
+  width:80%;
+  height: auto;
+  padding:8%;
+  margin: 2%;
+  
+}
+
+
+
+
+#DATA_COMPANY_IMAGE_MAIN_DIV3{
+  width: 100%;
+  height: auto;
+  padding:1% 14%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25% 25%;
+}
+
+
+#amazon_div3{
+  width:90%;
+  height: auto;
+  border: 1px solid gray;
+  padding:2%;
+  margin:2% 0%;
+  background-color:white;
+  box-shadow: 0px 1px 1px teal;
+}
+
+
+#amazon_div3  img{
+  width:80%;
+  height: auto;
+  padding:8%;
+  margin: 2%;
+  
+}
+
+#STUDENT_MAIN_DIV{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+#STUDENT_MAIN_DIV h1{
+  font-size: 50px;
+
+  padding: 2% 0%;
+  margin: 1% 0%;
+  color:rgb(15, 178, 178);
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+}
+
+
+#scrollbody_instadiv::-webkit-scrollbar{display: none;
+}
+#scrollbody::-webkit-scrollbar{display: none;
+}
+#scrollbody_instadiv{
+    width:100%;
+  height:auto;
+overflow: scroll;
+scroll-behavior: smooth;
+scroll-snap-align:center;
+
+}
+
+
+#scrollbody_instadiv{
+    background-color:rgb(240, 240, 240);
+   display: grid;
+   grid-template-columns: 300px 300px 300px 300px 300px 300px 300px 300px  300px 300px 300px 300px;
+   column-gap:1%;
+padding-top: 4%;
+padding-bottom: 4%;
+padding-right:2%;
+   overflow: scroll;
+   scroll-behavior: smooth;
+   scroll-snap-type: x mandatory;
+  
+  
+
+  
+   
+}
+
+#smallinsta_div{
+    width: 300px;
+    height:auto;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 4px;
+ border: 4px solid white;
+ box-shadow: 4px 4px  8px teal;
+
+   
+}
+
+#smallinsta_div img{
+    width: 100%;
+    height:auto;
+   
+}
+
+#INSTA_MAIN_DIV{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 2%;
+    background-color:#E3E3E3;
+}
+
+
+#smallinsta_div h1{
+font-size: 24px;
+  padding: 2% 6%;
+font-family: "Roboto Slab", serif;
+font-weight: 500;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+
+
+#smallinsta_div  p{
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+  padding: 2% 6%;
+  margin-bottom: 2%;
+}
+
+#FOOTER_MAIN_DIV{
+  width: 100%;
+  height: auto;
+  padding: 4%;
+  background-color:rgb(15, 178, 178);;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+#footer_categries_div{
+  width: 95%;
+  height: auto;
+  padding: 2% 0%;
+  margin: 2%;
+}
+
+#footer_categries_div a{
+  color: white;
+  width:30%;
+  padding: 2% 0%;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+  display: block;
+  transition: all 1s ease;
+
+}
+
+#footer_categries_div a:hover{
+  transform: translateY(-6px);
+  border-bottom: 1px solid white;
+
+
+}
+
+#reseriver_main_div{
+  text-align: center;
+  background-color:rgb(240, 240, 240);
+  width: 100%;
+  height: auto;
+}
+
+#reseriver_main_div p{
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+  padding: 2% 0%;
+  color: teal;
+}
+
+#SELECT_STUDENT_MAIN_PAGES{
+  width: 100%;
+  height: auto;
+  padding: 2% 10%;
+
+}
+
+#SELECT_STUDENT_categries{
+  width: 100%;
+  height: auto;
+  padding:3% 2%;
+  background-color:rgb(246, 241, 241);
+ 
+  transform: translateY(60px);
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+#select_box_div{
+  width: 95%;
+   background-color: white;
+  padding:2%;
+  box-shadow: 0px 0px 4px rgb(73, 206, 206);
+  border-radius: 4px;
+  height: auto;
+  transition: all 1s ease;
+  scale: 95%;
+  
+ 
+}
+#select_box_div p{
+  font-size: 16px;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+  padding:3% 4%;
+  margin: 4% 0%;
+  
+}
+
+#select_box_div:hover{
+  transform: translateY(-22px);
+  scale: 100%;
+}
+
+#select_box_div h1{
+  font-size: 24px;
+font-family: "Roboto Slab", serif;
+font-weight: 500;
+padding:3% 4%;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin: 4% 0%;
+}
+
+#select_box_div img{
+  width:100%;
+  height:auto;
+
+
+}
+#COURSE_MAIN_DIV{
+  width: 100%;
+  height: auto;
+  padding: 1% 12%;
+ 
+}
+
+#course_categries_div{
+  width: 100%;
+  height: auto;
+  padding:2% 4%;
+
+
+ 
+}
+#course_readmore_div{
+  padding: 2%;
+  height:auto;
+  margin: 2% 0%;
+  box-shadow: 0px 0px 4px rgb(15, 178, 178);;;
+ }
+
+ #course_readmore_div p{
+  font-size: 15px;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+  padding: 1% 0%;
+
+ }
+
+ #myh1{
+  font-size:26px;
+    font-family: "Roboto Slab", serif;
+font-weight: 500;
+padding: 1% 0%;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color:rgb(15, 178, 178);;
+ }
+
+#more {display: none;}
+.fa-facebook {
+  background-color: rgb(15, 178, 178);
+color: white;
+}
+
+.fa-twitter {
+background-color: rgb(15, 178, 178);
+color: white;
+}
+
+.fa-google {
+background-color: rgb(15, 178, 178);
+color: white;
+}
+
+.fa-linkedin {
+background-color:  rgb(15, 178, 178);
+color: white;
+}
+
+.fa-youtube {
+background-color: rgb(15, 178, 178);
+color: white;
+}
+
+.fa-instagram {
+background-color:  rgb(15, 178, 178);
+color: white;
+}
+
+.fa-pinterest {
+background-color:  rgb(15, 178, 178);
+color: white;
+}
+
+.fa-snapchat-ghost {
+background: #fffc00;
+color: white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa {
+padding: 12px;
+font-size:22px;
+width:40px;
+text-align: center;
+text-decoration: none;
+margin: 8px 2px;
+display: block;
+}
+
+#SOCIAL_MEADIA{
+width:6%;
+height:auto;
+padding: 2%;
+margin:1% 0%;
+border-radius: 4px;
+transform: translateY(62px);
+margin-left: 92%;
+
+}

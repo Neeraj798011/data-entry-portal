@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#Contact_home_main_div{
+    width: 100%;
+    height:auto;
+    background-color:rgb(235, 232, 232);
+   display: grid;
+   grid-template-columns: 50% 50%;
+   
+}
+
+#small_image_div {
+    width: 100%;
+    height: auto;
+    padding:0% 2%;
+}
+#small_image_div img{
+
+    width:74%;
+    height: auto;
+    padding: auto;
+   
+}
+
+#small_div h6{
+    width:35%;
+    margin:8% 2%;
+ padding: 4% 2%;
+    color:  rgb(15, 178, 178);
+    font-size: 60px;
+    position: absolute;
+  text-align: center;
+  
+    border-radius: 8px;
+    
+    
+}
+
+
+
+#Contact_categries_main_div{
+    width: 100%;
+    height: auto;
+    padding:2% 4%;
+  
+    display: grid;
+    grid-template-columns: 60% 40%;
+  
+   
+}
+
+#Contact_form_div{
+    width: 100%;
+    height: auto;
+    padding: 0% 8%;
+
+}
+
+#Contact_form_div h1{
+    font-size: 40px;
+    height: auto;
+    padding: 2% 0%;
+    color:  rgb(15, 178, 178);
+}
+#form{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+   
+}
+
+#form label{
+ /* width:calc(100%/2); */
+ padding: 4% 0%;
+ margin: 22% 0%;
+
+}
+
+   
+
+
+#Contact_form_div input{
+   
+    width: 100%;
+    height: auto;       
+    padding:2%;
+    border: 1px solid black;
+    margin: 1% 0%;
+   
+  
+}
+
+#cover-letter{
+    width: 100%;
+    height: auto;       
+    padding:2%;
+    border: 1px solid black;
+    margin: 1% 0%;
+}
+#Contact_form_div #input_btn{
+    width: 30%;
+    height: auto;
+    padding: 2%;
+    margin: 2% 0%;
+    transition: all 1s;
+    border: none;
+}
+#Contact_form_div #input_btn:hover{
+    height: auto;
+    padding: 2%;
+    border-left: 4px solid aqua;
+    border-right: 4px solid aqua;
+    
+}
+
+#Contact_address_box{
+    width: 100%;
+    height: auto;
+    padding: 14% 4%;
+    margin-left: 12%;
+    margin-top: 6%;
+}
+
+
+#Contact_address_box h1{
+    font-size: 26px;
+    height: auto;
+    font-weight:500;
+    padding: 2% 4%;
+    margin: 0% 4%;
+    color:  rgb(15, 178, 178);
+}
+
+#Contact_address_box p{
+    font-size: 14px;
+    padding: 1% 4%;
+    margin: 0% 4%;
+    color: black;
+}
+
+#Contact_address_box h3{
+    font-size: 14px;
+    padding: 1% 4%;
+    margin: 0% 4%;
+    color: black;
+}

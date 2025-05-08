@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h4{
+    color: chocolate;
+    padding: 2%;
+    font-size: 34px;
+    background-color: rgb(235, 231, 231);
+    text-align: center;
+}
+#Login_dorm_div{
+    width: 350px;
+    height: auto;
+    padding: 2%;
+    background-color: white;
+    box-shadow: 1.2px 1.2px 1.5px 1.5px chocolate;
+    margin: 4% auto;
+}
+
+input{
+    width: 100%;
+    height: auto;
+    padding:3% 2%;
+    border:none;
+    border-bottom: 2px solid chocolate;
+    margin: 2%;
+
+}

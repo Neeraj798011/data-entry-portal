@@ -1,0 +1,258 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+html{
+    scroll-behavior: smooth;
+  
+    /* height: 100%; */
+
+}
+body{
+  width:100%;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+#LOGO_MAIN_DIV{
+    width: 100%;
+     height:auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+ 
+   
+}
+
+
+#logo_categries{
+    padding:1%;
+    
+ 
+}
+#logo_categries img{
+    padding:1%;
+    
+}
+#LOGO_MAIN_DIV{
+    width: 100%;
+    height:auto;
+    padding: 0%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    
+  }
+  
+  #header_homepage_Logo_div{
+    width: 100%;
+    height: auto;
+    padding:0% 2%;
+    
+  }
+  
+  
+  #LOGO_MAIN_DIV img{
+    width:19%;
+    height: auto;
+    margin: 0% 4%;
+    
+  }
+  
+  #header_homepage_items_div{
+    width: 100%;
+    height: auto;
+    text-align: right;
+    padding:1% 2%;
+
+    
+  
+  
+  }
+  #header_homepage_items_div img{
+    width:40px;
+    height: auto;
+    margin: 0% 1%;
+   padding:0% 1%;
+   transition: all 1s ease;
+   
+  }
+  
+ 
+  
+  
+  nav{
+      width: 100%;
+      height: auto;
+      padding:0% 2%;
+      background-color:rgb(15, 178, 178);
+      display: grid;
+      grid-template-columns: 35% 65%;
+      /* border:4px solid red; */
+  }
+  
+  nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding:0% 2%;
+  margin:0% 1%;
+  border: none;
+  border-right: 1px solid white;
+  font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    cursor: pointer;
+  
+}
+  
+  #Logo_div{
+      width: 100%;
+      height: auto;
+      color: white;
+      padding:2%;
+     
+  }
+  
+  #logo_nav_text{
+       width: 100%;
+      height: auto;
+      padding:2%;
+     
+  
+  }
+  
+  
+  #logo_nav_btn_div{
+      width: 100%;
+      height: auto;
+      padding:2%;
+     
+ 
+      
+  }
+  
+  #Add_kart_btn{
+      width:auto;
+      padding: 2%;
+      height: auto;
+      border: none;
+      background-color:rgb(15, 178, 178);
+      margin: 0% 2%;
+  }
+  #Add_kart_btn svg{
+      width: auto;
+      padding: 2%;
+      background-image: none;
+      cursor: pointer;
+  }
+  
+  #notification_btn{
+      width:auto;
+      padding: 2%;
+      height: auto;
+      margin: 0% 2%;
+      border: none;
+      background-color:rgb(15, 178, 178);
+  }
+  
+  
+  #notification_btn svg{
+      width: auto;
+      padding: 2%;
+      background-image: none;
+      cursor: pointer;
+  }
+  
+  #Nav_login_btn{
+      width:auto;
+      padding: 2%;
+      height: auto;
+      margin: 0% 2%;
+      border: none;
+      background-color:rgb(15, 178, 178);
+  
+  }
+  #Nav_login_btn svg{
+      width: auto;
+      padding: 2%;
+      background-image: none;
+      cursor: pointer;
+  }
+  
+  #Nav_login_btn{
+    text-align: right;
+    overflow: hidden;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .dropdown {
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+  
+  }
+  
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: none;
+    width:150px;
+    padding:1%;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+    margin-top: -2%;
+    border: none;
+  }
+  
+  .dropdown-content a {
+    text-decoration: none;
+    display: block;
+    margin:22% 0%;
+    padding: 4% 0%;
+  
+  
+  }
+  
+  .dropdown-content a:hover {
+    border: none;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  #Signup_btn{
+      width:auto;
+      height: auto;
+      padding:8%;
+      color: white;
+      background-color: blue;
+      border: none;
+      border-radius: 0px;
+      cursor: pointer;
+    
+  }
